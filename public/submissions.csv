@@ -1,0 +1,6 @@
+Timestamp,Name,Email,Phone,Company,Service,Budget,Deadline,Description,Communication
+2026-07-24T11:13:41.727Z,"John Doe Test","john@example.com","","","WordPress","2500","","Test project submission",""
+2026-07-24T11:16:06.161Z,"Darshan Patel","darshan.patel8870@gmail.com","+919979321216","Test","WordPress","100000","1 - 2 months","Test","Email"
+2026-07-24T11:25:37.905Z,"Darshan Patel","darshan.patel8870@gmail.com","+919979321216","Test","Shopify","200000","Less than 1 month","Test","WhatsApp / Phone"
+2026-07-24T11:30:33.698Z,"Darshan Patel","darshan.patel8870@gmail.com","+919979321216","Test","WordPress","10000","Less than 1 month","Test","WhatsApp / Phone"
+2026-07-24T11:39:50.977Z,"Darshan Patel","darshan.patel8870@gmail.com","+919979321216","Test","WordPress","50000","Less than 1 month","Test","WhatsApp / Phone"

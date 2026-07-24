@@ -1,0 +1,5 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <rect width="24" height="24" rx="4" fill="#330000" />
+  <rect x="1" y="1" width="22" height="22" rx="3" fill="none" stroke="#FF9A00" stroke-width="1.5" />
+  <text x="5" y="16.5" fill="#FF9A00" font-family="Arial, sans-serif" font-weight="900" font-size="12">Ai</text>
+</svg>
