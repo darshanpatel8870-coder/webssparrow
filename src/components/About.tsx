@@ -74,7 +74,7 @@ export default function About() {
             </AnimateOnScroll>
 
             {/* Statistics Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 pt-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 pt-4" suppressHydrationWarning>
               {stats.map((stat) => (
                 <AnimateOnScroll
                   key={stat.id}
@@ -82,7 +82,7 @@ export default function About() {
                   className="p-4 rounded-2xl border border-border-color bg-bg-card text-center shadow-sm hover:shadow-md hover:border-brand-primary/30 transition-all duration-200"
                 >
                   <stat.icon className="h-6 w-6 text-brand-primary mx-auto mb-2" />
-                  <div className="text-xl font-extrabold text-text-primary">{stat.value}</div>
+                  <div className="text-xl font-extrabold text-text-primary" suppressHydrationWarning>{stat.value}</div>
                   <div className="text-[10px] sm:text-xs font-medium text-text-secondary mt-1">{stat.label}</div>
                 </AnimateOnScroll>
               ))}

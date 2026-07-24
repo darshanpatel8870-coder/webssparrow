@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Briefcase, FileDown, ArrowRight } from "lucide-react";
 import { Linkedin } from "./SocialIcons";
 import { motion, AnimatePresence } from "framer-motion";

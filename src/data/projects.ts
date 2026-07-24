@@ -77,7 +77,7 @@ export const projectsData: ProjectItem[] = [
   },
   {
     slug: "the-poised",
-    name: "The Poised Studio",
+    name: "The Poised Media",
     category: "HTML",
     description: "Elegant brand studio showcase built with smooth scroll interactions and clean responsive HTML structural design.",
     technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
@@ -111,7 +111,7 @@ export const projectsData: ProjectItem[] = [
   },
   {
     slug: "one-centre-india",
-    name: "One Centre India Commercial Portal",
+    name: "One Centre India",
     category: "HTML",
     description: "Commercial real estate & business center website with interactive floor layouts, inquiry forms, and responsive mobile UX.",
     technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
@@ -196,6 +196,44 @@ export const projectsData: ProjectItem[] = [
     goals: ["Intuitive mega-menu.", "Fast product search."],
     responsibilities: ["Full Shopify storefront frontend build."],
     process: ["Custom theme architecture.", "Optimization."]
+  },
+  {
+    slug: "braidan-motorsport",
+    name: "Braidan Motorsport E-Commerce",
+    category: "Shopify",
+    description: "Performance automotive parts & racing gear Shopify e-commerce store featuring custom vehicle fitment filters, high-speed product catalog, and responsive layout.",
+    technologies: ["Shopify", "Liquid", "JavaScript", "Custom Theme", "Fitment Filter"],
+    challenge: "Handling complex automotive parts fitment compatibility across vehicle years, makes, and models.",
+    solution: "Implemented custom Shopify Liquid vehicle fitment filter dropdowns and dynamic inventory search.",
+    result: "Boosted online sales of performance auto parts by 52% and reduced incorrect fitment return requests by 65%.",
+    liveUrl: "https://braidanmotorsport.com/",
+    image: "/images/projects/braidan-motorsport.png",
+    overview: "Braidan Motorsport is a premier high-performance racing gear and automotive parts supplier requiring a custom Shopify storefront with vehicle fitment compatibility.",
+    clientProblem: "Customers struggled to verify whether specific performance parts fit their exact track vehicles.",
+    goals: ["Year/Make/Model vehicle fitment search.", "High-speed catalog filtering.", "Mobile-optimized cart drawer."],
+    responsibilities: ["Custom Shopify Liquid theme development.", "Fitment calculator logic and frontend UI."],
+    process: ["Information architecture & fitment schema design.", "Shopify 2.0 theme development.", "Speed optimization and live deployment."]
+  },
+  {
+    slug: "uno-aroma",
+    name: "UNO Aroma Premium Fragrances",
+    category: "Shopify",
+    description: "Accessible luxury fragrance e-commerce store built on Shopify Online Store 2.0, featuring long-lasting scent collections, rich fragrance note breakdowns, and direct-to-consumer affordable pricing.",
+    technologies: ["Shopify", "Liquid", "JavaScript", "Custom Theme", "D2C E-Commerce"],
+    challenge: "Challenging traditional luxury perfume markups by building an approachable, high-converting digital storefront that clearly highlights fragrance richness and long-lasting performance.",
+    solution: "Engineered custom Shopify Liquid templates focused on honest fragrance notes, scent richness guides, transparent pricing, and sub-second mobile page speed.",
+    result: "Increased D2C fragrance sales conversion rate by 54% and built a loyal customer base for everyday luxury fragrances.",
+    liveUrl: "https://unoaroma.com/",
+    image: "/images/projects/uno-aroma.png",
+    overview: "UNO Aroma is a direct-to-consumer fragrance brand dedicated to making high-quality, long-lasting fragrances accessible, honest, and meaningful for everyone without unnecessary markups.",
+    clientProblem: "Traditional fragrance websites often felt exclusive, intimidating, and failed to communicate scent quality without high retail prices.",
+    goals: [
+      "Highlight premium long-lasting scent quality without inflated markups.",
+      "Streamlined mobile shopping and fast checkout experience.",
+      "Clear, honest fragrance note breakdowns."
+    ],
+    responsibilities: ["Custom Shopify Liquid theme development.", "D2C brand storytelling and high-converting product page layout."],
+    process: ["Brand mission & product hierarchy alignment.", "Custom Shopify 2.0 Liquid storefront build.", "Speed optimization and live launch."]
   },
 
   // WORDPRESS PROJECTS
