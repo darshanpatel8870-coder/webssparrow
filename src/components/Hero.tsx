@@ -38,10 +38,16 @@ export default function Hero() {
           
           {/* Main Info */}
           <div className="lg:col-span-7 space-y-6 text-left">
-            {/* Availability Status */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-green-500/20 bg-green-500/10 text-green-700 dark:text-green-400 text-xs font-bold shadow-sm">
-              <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
-              Web Development Agency & Technical Partners
+            {/* Badges row */}
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold shadow-sm">
+                <Image src="/logos/shopify.svg" alt="Shopify Partner" width={14} height={14} className="w-3.5 h-3.5" />
+                Official Shopify Partner
+              </div>
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-brand-primary/20 bg-brand-primary/10 text-brand-primary text-xs font-bold shadow-sm">
+                <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
+                Web Development Agency
+              </div>
             </div>
 
             {/* Headline */}
@@ -72,7 +78,7 @@ export default function Hero() {
 
             {/* Supporting Text */}
             <p className="text-base text-text-secondary sm:text-lg max-w-2xl leading-relaxed">
-              WebsSparrow develops custom websites, e-commerce storefronts, enterprise web applications, APIs, custom plugins, themes, and scalable digital solutions using WordPress, Shopify, Laravel, React.js and Node.js.
+              As an <strong>Official Shopify Partner Agency</strong>, WebsSparrow develops custom Shopify Online Store 2.0 themes, Liquid modifications, custom WordPress sites, Laravel applications, APIs, and scalable e-commerce solutions.
             </p>
 
             {/* Buttons */}

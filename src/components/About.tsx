@@ -41,11 +41,11 @@ export default function About() {
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   priority
                 />
-                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4 flex justify-between items-center text-xs text-white/90 font-mono">
+                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent p-4 flex justify-between items-center text-xs text-white/90 font-mono">
                   <span>WebsSparrow Technologies</span>
-                  <span className="flex items-center gap-1.5 text-emerald-400 font-semibold">
-                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
-                    Web Agency
+                  <span className="flex items-center gap-1.5 text-emerald-400 font-semibold bg-emerald-950/70 border border-emerald-500/40 px-2 py-0.5 rounded-md">
+                    <Image src="/logos/shopify.svg" alt="Shopify Partner" width={12} height={12} className="w-3 h-3" />
+                    Shopify Partner
                   </span>
                 </div>
               </div>
@@ -55,11 +55,15 @@ export default function About() {
           {/* Text & Stats */}
           <div className="lg:col-span-7 space-y-6">
             <AnimateOnScroll direction="left" className="space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg border border-emerald-500/30 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold">
+                <Image src="/logos/shopify.svg" alt="Shopify Partner" width={14} height={14} className="w-3.5 h-3.5" />
+                Official Shopify Partner Agency
+              </div>
               <h3 className="text-2xl font-bold text-text-primary">
                 Reliable Technical Partner for Startups, Brands & Global Enterprises
               </h3>
               <p className="text-text-secondary leading-relaxed">
-                WebsSparrow is a full-service web development agency specializing in building custom websites, e-commerce storefronts, API integrations, and scalable databases. We handle everything from initial architecture and UI design to server setups, speed optimization, and secure deployments.
+                WebsSparrow is an <strong>Official Shopify Partner Agency</strong> and full-service web development firm specializing in building custom Shopify storefronts, bespoke Liquid themes, e-commerce platforms, API integrations, and scalable databases.
               </p>
               <p className="text-text-secondary leading-relaxed">
                 Whether you need a bespoke WooCommerce store, a highly customized Shopify Online Store 2.0 theme, a Laravel internal operations portal, or high-throughput APIs built on Node.js, our focus is always on writing clean, scalable code that drives real business results.

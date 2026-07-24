@@ -44,14 +44,18 @@ export default function Footer() {
               />
             </Link>
             <p className="text-text-secondary text-sm max-w-xs leading-relaxed">
-              WebsSparrow is a web development agency building robust, fast, and scalable digital systems for international clients, startups, and global brands.
+              WebsSparrow is an Official Shopify Partner Agency building robust, fast, and scalable digital systems for international clients, startups, and global brands.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex items-center gap-3 pt-1">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md border border-emerald-500/30 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold">
+                <Image src="/logos/shopify.svg" alt="Shopify Partner" width={14} height={14} className="w-3.5 h-3.5" />
+                Shopify Partner
+              </div>
               <a
                 href="https://www.linkedin.com/in/darshan-kavathiya-937353109/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg border border-border-color hover:bg-bg-card-hover text-text-secondary hover:text-text-primary transition"
+                className="p-1.5 rounded-lg border border-border-color hover:bg-bg-card-hover text-text-secondary hover:text-text-primary transition"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="h-4 w-4" />
